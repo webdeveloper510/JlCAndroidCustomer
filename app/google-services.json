@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "42019478278",
+    "firebase_url": "https://jlccustomerapp.firebaseio.com",
+    "project_id": "jlccustomerapp",
+    "storage_bucket": "jlccustomerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42019478278:android:a69ef09300d72f9a",
+        "android_client_info": {
+          "package_name": "com.example.jlccustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42019478278-d5kmkoe1q4naj8knhbamkdkuvsb8tg62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jlccustomer",
+            "certificate_hash": "2c23bfb7949e5795ee2eb11316b00a09dea3b0a0"
+          }
+        },
+        {
+          "client_id": "42019478278-qt8n4mnlhgue5rmsah31qj5ki90jgaom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-qvw-WojeLJgORWoogzNOL8mNPaIFnz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42019478278-qt8n4mnlhgue5rmsah31qj5ki90jgaom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

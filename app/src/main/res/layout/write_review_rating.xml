@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/headerlayout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        >
+
+        <RatingBar
+            android:id="@+id/rtbProductRating"
+            style="@style/RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:isIndicator="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:numStars="5"
+            android:rating="0" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtWriteReview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/headerlayout"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawable_host_profile"
+        android:gravity="start"
+        android:hint="Share your own experience"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="14sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edtWriteReview"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txCancel"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/drawable_reviews_whiteback"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="Cancel"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/txPost"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/drawable_reviews_postback"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Post"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
